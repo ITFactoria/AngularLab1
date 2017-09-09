@@ -4,9 +4,9 @@
 /********************************************************************************* */
 //Destructuring Arrays
 
-let teams: string[] = ["America", "Nacional"];
-let [team1,team2] = teams;
-console.log(team1, team2);
+let teams: string[] = ["America", "Nacional", "Junior"];
+let [team1,team2,team3] = teams;
+console.log(team1, team2, team3);
 
 //Destructuring Objects
 

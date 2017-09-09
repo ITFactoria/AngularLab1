@@ -3,9 +3,9 @@
 //VARIABLE DECLARATIONS
 /********************************************************************************* */
 //Destructuring Arrays
-var teams = ["America", "Nacional"];
-var team1 = teams[0], team2 = teams[1];
-console.log(team1, team2);
+var teams = ["America", "Nacional", "Junior"];
+var team1 = teams[0], team2 = teams[1], team3 = teams[2];
+console.log(team1, team2, team3);
 //Destructuring Objects
 var car = {
     marca: "chevy",
