@@ -66,5 +66,12 @@ var fabrica = {
     exitoso: true,
     cantar: function () { return "me encanta llorar!!!!"; }
 };
+var ranchero = {
+    nombre: "aguilar",
+    genero: "rabchera",
+    exitoso: true,
+    cantar: function () { return "me encanta gritar!!!!"; }
+};
 console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
 console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
+console.log("ranchera cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());

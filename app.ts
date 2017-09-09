@@ -95,8 +95,17 @@ let fabrica:cantante ={
 	cantar:()=>{return "me encanta llorar!!!!"}
 }
 
+let ranchero:cantante ={
+	nombre : "aguilar",
+	genero : "rabchera",
+	exitoso : true,
+	cantar:()=>{return "me encanta gritar!!!!"}
+}
+
+
 console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
 console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
+console.log("ranchera cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
 
 
 
