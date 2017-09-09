@@ -7,4 +7,8 @@ let myfuncionF = nombre => nombre;
 console.log(myfuncion("normal"));
 console.log(myfuncionF("flecha"));
 
+let avenger ={
 
+
+	
+}
