@@ -105,7 +105,7 @@ let ranchero:cantante ={
 
 console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
 console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
-console.log("ranchera cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
+console.log("ranchero cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
 
 
 
