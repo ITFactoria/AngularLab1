@@ -47,3 +47,63 @@ function ParametersOptional(a:number, b:number, c?:number){
 		return (a+b);
 	}
 	
+}
+console.log("Parameros opcionales: " +ParametersOptional(1,2));
+
+//Function Types
+//Named function
+function NamedAdd(a:number, b:number){
+	return a+b;
+}
+console.log("Named Function: " + NamedAdd(13,9));
+
+//Anonymous function
+let AnomymousAdd = function(a:number,b:number){return a+b}
+console.log("Anonymous Function: " + AnomymousAdd(3,4));
+
+//Arrow functions
+let Add = function(a:number,b:number){return a+b}
+console.log("Add Function: " + Add(13,4));
+
+let ArrowAdd = (a:number,b:number) => a+b;
+console.log("Arrow Add Function: " + ArrowAdd(10,4));
+
+/******************************************************************************/
+//INTERFACES
+/*****************************************************************************/
+
+interface cantante{
+	nombre: string,
+	genero: string,
+	exitoso: boolean,
+	cantar: () =>string
+
+}
+
+let demanda:cantante ={
+	nombre : "kraken",
+	genero : "rock",
+	exitoso : true,
+	cantar:()=>{return "me encanta cantar!!!!"}
+}
+
+let fabrica:cantante ={
+	nombre : "maluma",
+	genero : "regetonto",
+	exitoso : true,
+	cantar:()=>{return "me encanta llorar!!!!"}
+}
+
+let ranchero:cantante ={
+	nombre : "aguilar",
+	genero : "rabchera",
+	exitoso : true,
+	cantar:()=>{return "me encanta gritar!!!!"}
+}
+
+
+console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
+console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
+console.log("ranchero cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
+
+

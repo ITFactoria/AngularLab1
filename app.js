@@ -39,3 +39,39 @@ function ParametersOptional(a, b, c) {
         return (a + b);
     }
 }
+console.log("Parameros opcionales: " + ParametersOptional(1, 2));
+//Function Types
+//Named function
+function NamedAdd(a, b) {
+    return a + b;
+}
+console.log("Named Function: " + NamedAdd(13, 9));
+//Anonymous function
+var AnomymousAdd = function (a, b) { return a + b; };
+console.log("Anonymous Function: " + AnomymousAdd(3, 4));
+//Arrow functions
+var Add = function (a, b) { return a + b; };
+console.log("Add Function: " + Add(13, 4));
+var ArrowAdd = function (a, b) { return a + b; };
+console.log("Arrow Add Function: " + ArrowAdd(10, 4));
+var demanda = {
+    nombre: "kraken",
+    genero: "rock",
+    exitoso: true,
+    cantar: function () { return "me encanta cantar!!!!"; }
+};
+var fabrica = {
+    nombre: "maluma",
+    genero: "regetonto",
+    exitoso: true,
+    cantar: function () { return "me encanta llorar!!!!"; }
+};
+var ranchero = {
+    nombre: "aguilar",
+    genero: "rabchera",
+    exitoso: true,
+    cantar: function () { return "me encanta gritar!!!!"; }
+};
+console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
+console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
+console.log("ranchero cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
