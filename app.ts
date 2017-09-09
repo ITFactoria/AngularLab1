@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-let myfuncion = function (nombre){
-	return nombre;
-=======
-
 /********************************************************************************* */
 //VARIABLE DECLARATIONS
 /********************************************************************************* */
@@ -52,16 +47,3 @@ function ParametersOptional(a:number, b:number, c?:number){
 		return (a+b);
 	}
 	
->>>>>>> origin/master
-}
-
-let myfuncionF = nombre => nombre;
-
-console.log(myfuncion("normal"));
-console.log(myfuncionF("flecha"));
-
-let avenger ={
-
-
-	
-}
