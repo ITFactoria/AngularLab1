@@ -75,3 +75,18 @@ var ranchero = {
 console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
 console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
 console.log("ranchero cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
+/************************************************************************************************
+ * CLASES
+ ************************************************************************************************/
+var Auto = (function () {
+    function Auto(color, puestos, motor, dobletraccion) {
+        this.color = color;
+        this.puestos = puestos;
+        this.motor = motor;
+        this.dobletraccion = dobletraccion;
+        console.log("interna" + Auto);
+    }
+    return Auto;
+}());
+var camioneta = new Auto("Verde", 10, "3600lt", true);
+console.log(camioneta);
