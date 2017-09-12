@@ -1,4 +1,3 @@
-
 /********************************************************************************* */
 //VARIABLE DECLARATIONS
 /********************************************************************************* */
@@ -106,6 +105,33 @@ let ranchero:cantante ={
 console.log("demanda cantante" + demanda.nombre + "canta" + demanda.genero + demanda.cantar());
 console.log("fabrica cantante" + fabrica.nombre + "canta" + fabrica.genero + fabrica.cantar());
 console.log("ranchero cantante" + ranchero.nombre + "canta" + ranchero.genero + ranchero.cantar());
+
+/************************************************************************************************
+ * CLASES
+ ************************************************************************************************/
+
+class Auto{
+	color : string;
+	puestos: number;
+	motor: string;
+	dobletraccion : boolean;
+
+	constructor(color: string, puestos: number, motor: string, dobletraccion : boolean ){
+		this.color = color;
+		this.puestos = puestos;
+		this.motor = motor;
+		this.dobletraccion = dobletraccion
+		
+		
+		console.log("interna" + Auto);
+	}
+}
+
+let camioneta = new Auto("Verde",10,"3600lt",true);
+console.log(camioneta);
+
+
+
 
 
 
